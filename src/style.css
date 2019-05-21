@@ -1,0 +1,16 @@
+.levels {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.board {
+    width: 900px;
+}
+
+.input {
+    width: 100px;
+    box-sizing: border-box;
+}
