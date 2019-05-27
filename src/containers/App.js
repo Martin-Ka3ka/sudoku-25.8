@@ -35,8 +35,8 @@ class App extends React.Component {
 
     check() {
         let solved = sudoku.solve(this.state.board.join('')).split('')
-        if (solved) console.log("Udało się!")
-        else console.log("Nie udało się")
+        if (solved) window.alert("Udało się!")
+        else window.alert("Nie udało się")
     }
 
     render() {
