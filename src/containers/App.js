@@ -1,5 +1,4 @@
 import React from 'react';
-import uuid from 'uuid';
 import { hot } from 'react-hot-loader'
 import style from '../style.css'
 import sudoku from 'sudoku-umd'
@@ -43,7 +42,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>Sudoku</h1>
+                <h4>Sudoku</h4>
                 <div className={((this.state.gameStatus) ? style.levels : style.show)}>
                     <button onClick={() => { this.setBoard('easy') }}>Easy</button>
                     <button onClick={() => { this.setBoard('medium') }}>Medium</button>
